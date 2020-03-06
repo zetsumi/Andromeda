@@ -1,0 +1,224 @@
+{
+	"includes": {
+		"gameManager": {
+			"loading": "Chargement..."
+		},
+		"nav": {
+			"menus": {
+				"about": "À propos",
+				"library": "Librairie",
+				"monitor": "Moniteur",
+				"settings": "Paramètres",
+				"store": "Magasin"
+			}
+		}
+	},
+	"modals": {
+		"error": {
+			"message": "Une erreur inattendue est survenue. Les informations suivantes pourraient vous aider ou aider les développeurs.",
+			"title": "Erreur"
+		},
+		"filesDeletionWarning": {
+			"details": "Fichiers à supprimer :",
+			"message": "Certains fichiers nécessitent d'être supprimés pour appliquer la mise à jour du jeu. Vos paramètres indiquent qu'Andromeda n'est pas autorisé à le faire. Vous pouvez le faire manuellement ou changer ce paramètre. Vous devrez relancer la mise à jour ensuite.",
+			"title": "Suppression de fichiers requise"
+		},
+		"gamePatchComplete": {
+			"message": "{title} a été mis à jour et est prêt à être lancé.",
+			"playButton": "Jouer",
+			"title": "Vous êtes fin prêt"
+		},
+		"gameSettings": {
+			"saveButton": "Sauvegarder et fermer",
+			"sections": {
+				"fullscreen": {
+					"label": "Plein écran"
+				},
+				"resolution": {
+					"label": "Résolution d'écran"
+				}
+			},
+			"title": "Paramètres du jeu"
+		},
+		"launcherUpdateAvailable": {
+			"message": "Une mise à jour du lanceur est disponible et sera téléchargée automatiquement en arrière-plan. Vous serez notifié·e lorsqu'elle sera prête à être installée.",
+			"title": "Mise à jour disponible"
+		},
+		"launcherUpdateError": {
+			"message": "Une erreur est survenue lors de la communication avec le serveur de mise à jour du lanceur.",
+			"title": "Mise à jour échouée"
+		},
+		"launcherUpdateSuccess": {
+			"message": "La dernière version ({newVersion}) du lanceur a été téléchargée. Vous devez le relancer pour l'appliquer. Aussi, assurez-vous d'avoir fermé vos jeux.",
+			"restartButton": "Relancer",
+			"title": "Mise à jour prête"
+		},
+		"missingFeature": {
+			"message": "Cette action n'est pas encore possible mais elle sera implémentée bientôt.",
+			"title": "Fonctionnalité manquante"
+		},
+		"offline": {
+			"exitButton": "Je ne peux pas maintenant, quitter",
+			"message": "Il semblerait que vous n'ayez pas d'accès internet. Puisque cette application ne peut pas fonctionner sans, vous devez vous connecter pour l'utiliser.",
+			"title": "Vous êtes hors ligne"
+		},
+		"serverUnavailable": {
+			"message": "Les serveurs de l'éditeur de ce jeu semblent indisponibles. Veuillez réessayer plus tard.",
+			"title": "Serveur indisponible"
+		}
+	},
+	"pages": {
+		"about": {
+			"sections": {
+				"application": {
+					"title": "À propos d'Andromeda"
+				}
+			},
+			"title": "À propos du lanceur"
+		},
+		"library": {
+			"installButton": "Installer et Jouer",
+			"patchStatus": {
+				"1": {
+					"icon": "heartbeat",
+					"message": "Andromeda vérifie la disponibilité des serveurs de mise à jour.",
+					"title": "Recherche des serveurs"
+				},
+				"2": {
+					"icon": "tasks",
+					"message": "Andromeda regroupe les informations nécessaires pour mettre à jour le jeu.",
+					"title": "Préparation des ressources"
+				},
+				"3": {
+					"icon": "check",
+					"message": "Andromeda vérifie l'intégrité des fichiers de jeu. Cette opération pourrait prendre du temps.",
+					"title": "Vérification de l'intégrité des fichiers"
+				},
+				"4": {
+					"icon": "check-double",
+					"message": "Andromeda calcule la différence entre votre version du jeu et la dernière disponible. Cette opération peut prendre un certain temps.",
+					"title": "Recherche de mise à jour"
+				},
+				"5": {
+					"icon": "cloud-download-alt",
+					"message": "Andromeda met à jour votre jeu. Cette opération peut prendre un certain temps.",
+					"title": "Mise à jour"
+				}
+			},
+			"playButton": "Mettre à jour et Jouer",
+			"sections": {
+				"promotion": {
+					"screenshots": {
+						"title": "Captures d'écran"
+					},
+					"video": {
+						"title": "Vidéo promotionnelle"
+					}
+				}
+			},
+			"soonButton": "Disponible bientôt",
+			"title": "Mes jeux",
+			"waitForUpdate": "{name} est en cours de mise à jour. Vous pourrez jouer à ce jeu lorsque ce sera finit."
+		},
+		"monitor": {
+			"loading": "Chargement des informations système...",
+			"sections": {
+				"cpu": {
+					"baseClock": "Fréquence de base: {clock} GHz",
+					"chart": {
+						"title": "Utilisation CPU (%)"
+					},
+					"logicalCores": "Nombre de threads: {count}",
+					"physicalCores": "Nombre de cœurs physiques : {count}",
+					"title": "Computing (CPU)",
+					"turboClock": "Turbo : {clock} GHz"
+				},
+				"disk": {
+					"layout": {
+						"item": {
+							"text": "{size} Go de stockage {type}",
+							"title": "Stockage {index}"
+						}
+					},
+					"title": "Stockage"
+				},
+				"graphics": {
+					"display": {
+						"layout": {
+							"item": {
+								"text": "{width}x{height} ({depth} bits)",
+								"title": "Écran {index}"
+							}
+						}
+					},
+					"gpu": {
+						"layout": {
+							"item": {
+								"text": "{quantity} Go de VRAM",
+								"title": "GPU {index}"
+							}
+						}
+					},
+					"title": "Affichage"
+				},
+				"network": {
+					"layout": {
+						"item": {
+							"title": "Interface {index}"
+						}
+					},
+					"title": "Réseau"
+				},
+				"os": {
+					"title": "Système d'exploitation"
+				},
+				"ram": {
+					"layout": {
+						"item": {
+							"secondary": "{quantity} Go cadencés {clockSpeed} MHz",
+							"text": "{manufacturer} ({type})",
+							"title": "Emplacement {index}"
+						}
+					},
+					"text": "{quantity} Go installés",
+					"title": "Mémoire vive (RAM)"
+				}
+			},
+			"title": "Moniteur de performance"
+		},
+		"settings": {
+			"boolean": {
+				"false": "Non",
+				"true": "Oui"
+			},
+			"restartPending": {
+				"message": "Certains changements nécessitent de redémarrer l'application pour prendre effet. Vous pouvez néanmoins le faire plus tard et continuer de l'utiliser.",
+				"title": "Redémarrage requis"
+			},
+			"sections": {
+				"allowFilesDeletion": {
+					"description": "Permet à Andromeda de supprimer des fichiers lors de la mise à jour d'un jeu.",
+					"label": "Autoriser la suppression de fichiers"
+				},
+				"installationPath": {
+					"description": "Définit le répertoire dans lequel les jeux sont installés.",
+					"dialog": {
+						"message": "Tous les jeux installés avec Andromeda seront palcés ici.",
+						"title": "Répertoire d'installation"
+					},
+					"invalid": "Ce répertoire est invalide. Veillez à ce qu'il existe et que vous ayez le droit d'y accéder.",
+					"label": "Dossier d'installation"
+				},
+				"locale": {
+					"description": "Définit la langue d'affichage de l'application.",
+					"label": "Langue"
+				}
+			},
+			"title": "Paramètres du lanceur"
+		},
+		"store": {
+			"playButton": "Mettre à jour et Jouer",
+			"title": "Magasin de Jeux"
+		}
+	}
+}

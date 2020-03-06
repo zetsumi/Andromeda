@@ -1,0 +1,224 @@
+{
+	"includes": {
+		"gameManager": {
+			"loading": "Laden..."
+		},
+		"nav": {
+			"menus": {
+				"about": "Über",
+				"library": "Bibliothek",
+				"monitor": "Monitor",
+				"settings": "Einstellungen",
+				"store": "Store"
+			}
+		}
+	},
+	"modals": {
+		"error": {
+			"message": "Es ist ein unerwarteter Fehler aufgetreten. Die folgenden Informationen können Ihnen oder den Entwicklern helfen.",
+			"title": "Fehler"
+		},
+		"filesDeletionWarning": {
+			"details": "Zu löschende Dateien:",
+			"message": "Einige Dateien müssen gelöscht werden, um das Spielupdate anzuwenden. Ihre Einstellungen zeigen an, dass Andromeda dazu nicht berechtigt ist. Sie können dies manuell tun oder diese Einstellung ändern. Sie müssen das Update anschließend neu starten.",
+			"title": "Löschen von Dateien erforderlich"
+		},
+		"gamePatchComplete": {
+			"message": "{title} wurde aktualisiert und ist bereit für den Start.",
+			"playButton": "Spielen",
+			"title": "Du bist bereit"
+		},
+		"gameSettings": {
+			"saveButton": "Speichern und schließen",
+			"sections": {
+				"fullscreen": {
+					"label": "Vollbild"
+				},
+				"resolution": {
+					"label": "Bildschirmauflösung"
+				}
+			},
+			"title": "Spieleinstellungen"
+		},
+		"launcherUpdateAvailable": {
+			"message": "Ein Update des Launcher ist verfügbar und wird automatisch im Hintergrund heruntergeladen. Sie werden benachrichtigt, wenn es zur Installation bereit ist.",
+			"title": "Aktualisierung verfügbar"
+		},
+		"launcherUpdateError": {
+			"message": "Bei der Kommunikation mit dem Launcher-Update-Server ist ein Fehler aufgetreten.",
+			"title": "Aktualisierung fehlgeschlagen"
+		},
+		"launcherUpdateSuccess": {
+			"message": "Die neueste Version ({newVersion}) des Launcher wurde heruntergeladen. Sie müssen es neu starten, um es anzuwenden. Stellen Sie auch sicher, dass Sie Ihre Spiele geschlossen haben.",
+			"restartButton": "Neustart",
+			"title": "Das Update ist bereit"
+		},
+		"missingFeature": {
+			"message": "Diese Aktion ist noch nicht möglich, wird aber in Kürze umgesetzt.",
+			"title": "Fehlende Funktion"
+		},
+		"offline": {
+			"exitButton": "Ich kann es jetzt nicht tun, kündige",
+			"message": "Es sieht so aus, als hättest du keinen Zugang zum Internet. Da diese App ohne sie nicht funktionieren kann, müssen Sie wieder online gehen, um sie zu nutzen.",
+			"title": "Sie sind offline"
+		},
+		"serverUnavailable": {
+			"message": "Die Server des Herausgebers dieses Spiels scheinen nicht verfügbar zu sein. Bitte versuchen Sie es später noch einmal.",
+			"title": "Server nicht verfügbar"
+		}
+	},
+	"pages": {
+		"about": {
+			"sections": {
+				"application": {
+					"title": "Über Andromeda"
+				}
+			},
+			"title": "Über das Launcher"
+		},
+		"library": {
+			"installButton": "Installieren und Spielen",
+			"patchStatus": {
+				"1": {
+					"icon": "heartbeat",
+					"message": "Andromeda prüft die Verfügbarkeit der Update-Server.",
+					"title": "Suche nach Servern"
+				},
+				"2": {
+					"icon": "tasks",
+					"message": "Andromeda sammelt Informationen, um das Spiel zu aktualisieren.",
+					"title": "Vorbereitung der Ressourcen"
+				},
+				"3": {
+					"icon": "check",
+					"message": "Andromeda überprüft die Integrität der installierten Spieldateien. Dieser Vorgang kann einige Zeit in Anspruch nehmen.",
+					"title": "Überprüfung der Dateiintegrität"
+				},
+				"4": {
+					"icon": "check-double",
+					"message": "Andromeda berechnet die Unterschiede zwischen Ihrer Version des Spiels und der neuesten verfügbaren Version. Dieser Vorgang kann einige Zeit in Anspruch nehmen.",
+					"title": "Auf der Suche nach Updates"
+				},
+				"5": {
+					"icon": "cloud-download-alt",
+					"message": "Andromeda aktualisiert dein Spiel. Dieser Vorgang kann einige Zeit in Anspruch nehmen.",
+					"title": "Aktualisierung"
+				}
+			},
+			"playButton": "Aktualisieren und Spielen",
+			"sections": {
+				"promotion": {
+					"screenshots": {
+						"title": "Screenshots"
+					},
+					"video": {
+						"title": "Werbervideo"
+					}
+				}
+			},
+			"soonButton": "In Kürze verfügbar",
+			"title": "Meine Spiele",
+			"waitForUpdate": "{name} wird aktualisiert. Du kannst dieses Spiel spielen, wenn es vorbei ist."
+		},
+		"monitor": {
+			"loading": "Laden von Systeminformationen...",
+			"sections": {
+				"cpu": {
+					"baseClock": "Grundtaktfrequenz: {clock} GHz",
+					"chart": {
+						"title": "CPU-Nutzung (%)"
+					},
+					"logicalCores": "Anzahl der Threads: {count}",
+					"physicalCores": "Anzahl der Kerne: {count}",
+					"title": "Computing (CPU)",
+					"turboClock": "Turbo: {clock} GHz"
+				},
+				"disk": {
+					"layout": {
+						"item": {
+							"text": "{size} GB {type} Speicherplatz",
+							"title": "Speicher {index}"
+						}
+					},
+					"title": "Speichern"
+				},
+				"graphics": {
+					"display": {
+						"layout": {
+							"item": {
+								"text": "{width}x{height} ({depth} bits)",
+								"title": "Bildscrim {index}"
+							}
+						}
+					},
+					"gpu": {
+						"layout": {
+							"item": {
+								"text": "{quantity} GB VRAM",
+								"title": "GPU {index}"
+							}
+						}
+					},
+					"title": "Grafiken"
+				},
+				"network": {
+					"layout": {
+						"item": {
+							"title": "Schnittstelle {index}"
+						}
+					},
+					"title": "Netzwerk"
+				},
+				"os": {
+					"title": "Betriebssystem"
+				},
+				"ram": {
+					"layout": {
+						"item": {
+							"secondary": "{quantity} GB getaktet mit {clockSpeed} MHz",
+							"text": "{manufacturer} ({type})",
+							"title": "Steckplatz {index}"
+						}
+					},
+					"text": "{quantity} GB installiert",
+					"title": "Speicher (RAM)"
+				}
+			},
+			"title": "Leistungsmonitor"
+		},
+		"settings": {
+			"boolean": {
+				"false": "Nein",
+				"true": "Ja"
+			},
+			"restartPending": {
+				"message": "Einige Änderungen erfordern einen Neustart der Anwendung, damit sie wirksam wird. Sie können es jedoch später tun und weiterhin verwenden.",
+				"title": ""
+			},
+			"sections": {
+				"allowFilesDeletion": {
+					"description": "Ob Andromeda erlauben soll, Dateien bei der Aktualisierung eines Spiels zu löschen.",
+					"label": "Erlauben das Löschen von Dateien"
+				},
+				"installationPath": {
+					"description": "Legt den Pfad fest, in dem die Spiele installiert sind.",
+					"dialog": {
+						"message": "Alle mit Andromeda installierten Spiele werden hier platziert.",
+						"title": "Installationspfad"
+					},
+					"invalid": "Dieser Pfad ist ungültig. Vergewissern Sie sich, dass es existiert und dass Sie die Rechte haben, darauf zuzugreifen.",
+					"label": "Installationspfad"
+				},
+				"locale": {
+					"description": "Stellt die Anzeigesprache der Anwendung ein.",
+					"label": "Sprache"
+				}
+			},
+			"title": "Launcher-Einstellungen"
+		},
+		"store": {
+			"playButton": "Aktualisieren und Spielen",
+			"title": "Spiele-Shop"
+		}
+	}
+}

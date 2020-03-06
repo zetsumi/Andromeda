@@ -1,0 +1,224 @@
+{
+	"includes": {
+		"gameManager": {
+			"loading": "Loading..."
+		},
+		"nav": {
+			"menus": {
+				"about": "About",
+				"library": "Library",
+				"monitor": "Monitor",
+				"settings": "Settings",
+				"store": "Store"
+			}
+		}
+	},
+	"modals": {
+		"error": {
+			"message": "An unexpected error occurred. The following information may help you or the developers.",
+			"title": "Error"
+		},
+		"filesDeletionWarning": {
+			"details": "Files to delete:",
+			"message": "Some files need to be deleted to apply the game update. Your settings indicate that Andromeda is not authorized to do so. You can do this manually or change this setting. You will need to restart the update afterwards.",
+			"title": "Files deletion needed"
+		},
+		"gamePatchComplete": {
+			"message": "{title} has been updated and is ready to be launched.",
+			"playButton": "Play",
+			"title": "You're all set"
+		},
+		"gameSettings": {
+			"saveButton": "Save and close",
+			"sections": {
+				"fullscreen": {
+					"label": "Full-screen"
+				},
+				"resolution": {
+					"label": "Screen resolution"
+				}
+			},
+			"title": "Game settings"
+		},
+		"launcherUpdateAvailable": {
+			"message": "An update of the launcher is available and will be downloaded automatically in  background. You will be notified when it is ready to be installed.",
+			"title": "Update available"
+		},
+		"launcherUpdateError": {
+			"message": "An error occurred when communicating with the launcher update server.",
+			"title": "Update failed"
+		},
+		"launcherUpdateSuccess": {
+			"message": "The latest version ({newVersion}) of the launcher has been downloaded. You must restart it to apply it. Also, make sure you have closed your games.",
+			"restartButton": "Restart",
+			"title": "Update ready"
+		},
+		"missingFeature": {
+			"message": "This action is not possible yet but it will be implemented soon.",
+			"title": "Missing feature"
+		},
+		"offline": {
+			"exitButton": "I can't do it now, quit",
+			"message": "It looks like you don't have access to the internet. As this app cannot work without it, you need to get back online to use it.",
+			"title": "You are offline"
+		},
+		"serverUnavailable": {
+			"message": "The servers of the publisher of this game seem unavailable. Please try again later.",
+			"title": "Server unavailable"
+		}
+	},
+	"pages": {
+		"about": {
+			"sections": {
+				"application": {
+					"title": "About Andromeda"
+				}
+			},
+			"title": "About the launcher"
+		},
+		"library": {
+			"installButton": "Install and Play",
+			"patchStatus": {
+				"1": {
+					"icon": "heartbeat",
+					"message": "Andromeda is checking the availability of the update servers.",
+					"title": "Searching for servers"
+				},
+				"2": {
+					"icon": "tasks",
+					"message": "Andromeda is gathering information to update the game.",
+					"title": "Preparing resources"
+				},
+				"3": {
+					"icon": "check",
+					"message": "Andromeda is verifying the installed game files integrity. This operation might take some time.",
+					"title": "Verifying files integrity"
+				},
+				"4": {
+					"icon": "check-double",
+					"message": "Andromeda is computing the differences between your version of the game and the latest one available. This operation might take some time.",
+					"title": "Looking for updates"
+				},
+				"5": {
+					"icon": "cloud-download-alt",
+					"message": "Andromeda is patching your game. This operation might take some time.",
+					"title": "Patching"
+				}
+			},
+			"playButton": "Update and Play",
+			"sections": {
+				"promotion": {
+					"screenshots": {
+						"title": "Screenshots"
+					},
+					"video": {
+						"title": "Promotional video"
+					}
+				}
+			},
+			"soonButton": "Availablein Kürze verfügbar soon",
+			"title": "My games",
+			"waitForUpdate": "{name} is currently being updated. You can play this game when it's finished."
+		},
+		"monitor": {
+			"loading": "Loading system information...",
+			"sections": {
+				"cpu": {
+					"baseClock": "Base clock: {clock} GHz",
+					"chart": {
+						"title": "CPU usage (%)"
+					},
+					"logicalCores": "Number of threads: {count}",
+					"physicalCores": "Number of cores: {count}",
+					"title": "Computing (CPU)",
+					"turboClock": "Turbo: {clock} GHz"
+				},
+				"disk": {
+					"layout": {
+						"item": {
+							"text": "{size} GB of {type} storage",
+							"title": "Drive {index}"
+						}
+					},
+					"title": "Storage"
+				},
+				"graphics": {
+					"display": {
+						"layout": {
+							"item": {
+								"text": "{width}x{height} ({depth} bits)",
+								"title": "Display {index}"
+							}
+						}
+					},
+					"gpu": {
+						"layout": {
+							"item": {
+								"text": "{quantity} GB of VRAM",
+								"title": "GPU {index}"
+							}
+						}
+					},
+					"title": "Graphics"
+				},
+				"network": {
+					"layout": {
+						"item": {
+							"title": "Interface {index}"
+						}
+					},
+					"title": "Network"
+				},
+				"os": {
+					"title": "Operating System"
+				},
+				"ram": {
+					"layout": {
+						"item": {
+							"secondary": "{quantity} GB clocked at {clockSpeed} MHz",
+							"text": "{manufacturer} ({type})",
+							"title": "Slot {index}"
+						}
+					},
+					"text": "{quantity} GB installed",
+					"title": "Memory (RAM)"
+				}
+			},
+			"title": "Performance monitor"
+		},
+		"settings": {
+			"boolean": {
+				"false": "No",
+				"true": "Yes"
+			},
+			"restartPending": {
+				"message": "Some changes require you to restart the application to take effect. However, you can do it later and continue to use it.",
+				"title": "Restart required"
+			},
+			"sections": {
+				"allowFilesDeletion": {
+					"description": "Whether to allow Andromeda to delete files when updating a game.",
+					"label": "Allow files deletion"
+				},
+				"installationPath": {
+					"description": "Sets the path where the games are installed.",
+					"dialog": {
+						"message": "All the games installed with Andromeda will be placed here.",
+						"title": "Installation path"
+					},
+					"invalid": "This path is invalid. Make sure that it exists and that you have the rights to access it.",
+					"label": "Installation path"
+				},
+				"locale": {
+					"description": "Sets the display language of the application.",
+					"label": "Language"
+				}
+			},
+			"title": "Launcher settings"
+		},
+		"store": {
+			"playButton": "Update and Play",
+			"title": "Games Store"
+		}
+	}
+}

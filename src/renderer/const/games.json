@@ -1,0 +1,14 @@
+{
+  "3eb5dd8d-2ce1-4add-a705-87a919b6a1e6": {
+    "cassiopeia": {
+      "base": "https://cassiopeia.astral-studio.io"
+    },
+    "name": "JumpJump"
+  },
+  "f9937263-41cb-4ab1-bf72-0c2d0e825746": {
+    "cassiopeia": {
+      "base": "http://91.121.65.175:3000"
+    },
+    "name": "ShadowFlyff"
+  }
+}
