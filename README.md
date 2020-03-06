@@ -1,6 +1,10 @@
 # Andromeda
 
-> Designed by Astral-Studio.
+> Designed by Zetsumi and Tadraes.
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![discord](https://discordapp.com/api/guilds/294405146300121088/widget.png)](https://discord.gg/fZP7TWq)
 
 ## Prérequis
 
