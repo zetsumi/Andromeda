@@ -45,7 +45,7 @@
     "request": "^2.88.0",
     "request-progress": "^3.0.0",
     "request-promise": "^4.2.4",
-    "systeminformation": "^3.54.0",
+    "systeminformation": "^5.3.1",
     "vue": "^2.5.16",
     "vue-chartjs": "^3.4.0",
     "vue-dragscroll": "^1.8.1",
